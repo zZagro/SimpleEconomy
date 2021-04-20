@@ -1,0 +1,15 @@
+name: Economy
+version: 1.0
+main: de.zagro.economy.Economy
+commands:
+  coins:
+    aliases: [c]
+  coinsadd:
+    aliases: [ca]
+  coinsset:
+    aliases: [cs]
+  coinsremove:
+    aliases: [cr]
+
+depend:
+  - PlaceholderAPI
